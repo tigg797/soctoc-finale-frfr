@@ -1,0 +1,34 @@
+body {background-image: url(18954499_6057485.jpg); font-family: Verdana;}
+
+.peuback {
+    background-color: rgb(240, 255, 255, 0.4);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#lgt-span {
+    font-size: 10px;
+}
+
+#lgt-btn {
+    font-size: 10px;
+    width: 60px;
+    height: 22px;
+}
+
+#hope-div {
+    opacity: 0.85;
+}
+
+#lerowoui {
+    text-align: center;
+}
+
+#add_btn {
+    background-color: red;
+    font-size: 37px;
+    font-family: Courier;
+}
+

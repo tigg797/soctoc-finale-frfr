@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SocToc: Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="soctoc.js"></script>
+<link rel="stylesheet" type="text/css" href="soctoc.css">
+</head>
+
+<body>
+<center>
+<h1 class="peuback">SocToc</h1>
+<div id="login_div"class="container">
+    <div class="form-group">
+      <label for="email">Username:</label>
+      <input type="email" class="form-control" id="user_name">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+    <div class="checkbox">
+      <label><button id="checked_button" onclick="checked()">Save</label>
+    </div>
+    <button id="login_button" onclick="addUser()" class="btn btn-success">Submit</button>
+</div>
+</center>
+</body>

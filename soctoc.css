@@ -1,0 +1,26 @@
+body {
+    font-family: Verdana;
+    background-image: url(18954499_6057485.jpg);
+}
+#login_div {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(240, 255, 255, 0.4);
+}
+
+.peuback {
+    background-color: rgb(240, 255, 255, 0.4);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#checked_button {
+    border-radius: 50px;
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+}
+
+#login_button {
+    opacity: 0.5;
+}
